@@ -1,0 +1,13 @@
+print("S");
+print("S[0]='z'");
+print("S='Z' + S[1:]");
+print("S");
+print("S='Python'");
+print("L=list(S)");
+print("S");
+print("L[0]='C'");
+print("''.join(L)");
+print("B=bytearray(b'app')");
+print("B.extend('bliscation')");
+print("B");
+print("B.decode");

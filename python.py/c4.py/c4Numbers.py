@@ -1,0 +1,11 @@
+print("123+222");
+print("1.5*4");
+print("1_234_567,0x15,bin(21)");
+print("2 ** 100");
+print("len(str(2 ** 12345))");
+import math;
+print("math.pi");
+print("math.sqrt(85)");
+import random;
+print("random.random()");
+print("random.choice([1, 2, 3, 4, 5])");

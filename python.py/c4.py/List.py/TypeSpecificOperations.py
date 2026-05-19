@@ -1,0 +1,9 @@
+print("L.append('Py')");
+print("L");
+print("L.pop(2)");
+print("L");
+print("M=['bb','aa','cc']");
+print("M.sort()");
+print("M");
+print("M.reverse()");
+print("M");

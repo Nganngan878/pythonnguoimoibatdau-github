@@ -1,0 +1,14 @@
+print("col2=row[1] for row in M]" );
+print("col2");
+print("M");
+print("[row[1]+ 1 for row in M ]");
+print("[row[1] for row in M if row[1] % 2 == 0]");
+print("diag=[M[i][i] for i in [0,1,2]]");
+print("diag");
+print("double=[c*2 for c in 'hack]");
+print("doubles = [c * 2 for c in 'hack'] ");
+print("doubles");
+print("list(range(4))");
+print("list(range(-6,7,2,))");
+print("[[x ** 2, x ** 3] for x in range(4)] ");
+print(" [[x, x // 2, x * 2] for x in range(-6, 7, 2) if x > 0]");

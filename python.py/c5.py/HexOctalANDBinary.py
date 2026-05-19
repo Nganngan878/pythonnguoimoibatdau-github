@@ -1,0 +1,7 @@
+print(0x01,0x10,0x1FF)
+print(0o1,0o20,0o377)
+print(0b1,0b10000,0b11111111)
+print(0xFF ,(165*(15**1))+(15*(16**0)))
+print(oct(64),hex(64),bin(64))
+print(int('64', 16), int('64', 8), int('1010', 2))
+print(int('0x40',16),int('0b10000000',2))

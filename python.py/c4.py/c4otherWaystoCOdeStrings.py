@@ -1,0 +1,11 @@
+print("S='A\nB\tC'");
+print("len(S)");
+print("S='A\0B\0C'");
+print("len(S)");
+print("S");
+print("msg= '''");
+print("...aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+print("... bbb'''bbb""bbbbbb");
+print("... cccccccc");
+print("...""");
+print("msg");

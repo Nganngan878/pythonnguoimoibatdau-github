@@ -1,0 +1,18 @@
+print("L=[123,'hello',1.23  " );
+print("Len(L)");
+print("L[0], L[1], L[2]");
+print("L[-1], L[-2], L[-3]");
+print("L[1:3]");
+print("L[:2], L[2:]");
+print("L[::2], L[1::2]");
+print("L[::-1]");
+print("L[len(L)-1]");
+print("L[-1]");
+print("L[1:]");
+print("L");
+print("L[0:3]");
+print("L[0]");
+print("L[:-1]");
+print("L+[4,5,6]");
+print("L*2");
+print("L");

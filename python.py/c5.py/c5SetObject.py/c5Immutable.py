@@ -1,0 +1,13 @@
+S={1.23}
+print(S)
+S.add(1.23)
+print(S)
+S.add(1.23)
+print(S)
+S.add(1)
+S.add(2)
+S.add(3)
+print(S)
+print((1,2,3)in S)
+S.add(frozenset('app'))
+print(S)

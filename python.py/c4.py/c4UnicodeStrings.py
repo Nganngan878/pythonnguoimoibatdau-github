@@ -1,0 +1,11 @@
+print("hack!");
+print(" b'a\x01c' + b'bliscation'");
+print("Code");
+print("'Code'.encode('utf-8') ");
+print("b 'Code'.decode('utf-16')");
+print(" hex(ord(' ')) ");
+print(" ord(' ') ");
+print("len(' hÄck '.encode('utf-8')) ");
+print(" len(' hÄck '.encode('utf-16')) ");
+print(" 'h\xc4\u00c4\U000000c4Äck' ");
+print(" '\u00A3', '\u00A3'.encode('latin1'), b'\xA3'.decode('latin1')");
