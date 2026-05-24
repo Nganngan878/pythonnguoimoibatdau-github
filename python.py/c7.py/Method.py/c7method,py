@@ -1,0 +1,8 @@
+S = 'hack'
+
+print(S.find('ac'))
+print(S.capitalize())
+print(S.casefold())
+print(S.center(10))
+print(S.center(10, '-'))
+print(print(S.lower()))

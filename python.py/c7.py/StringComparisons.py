@@ -1,0 +1,1 @@
+print('hack'== 'hack','hact'> 'hack','hacker'>'hack')
