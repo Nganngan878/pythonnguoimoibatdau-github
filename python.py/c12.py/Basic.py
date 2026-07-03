@@ -42,12 +42,11 @@ print(messagess.get(error_code, "Unknown Error"))
 #Dạng 3: Lựa chọn hiện đại (Cấu trúc match/case)
 #Bài tập: Xử lý các trạng thái đơn hàng.
 status='shipped'
-match status:
-    case 'pending':
-        print("đang xử lý ")
-    case 'shipped':
-        print("đang giao hàng")
-    case 'delivered':
-        print("đã giao hàng")
-    case 'canceled':
-        print("đơn hàng đã hủy")
+if status =='pending':
+    print("Đang xử lý")
+elif status == 'shipped':
+    print("đang giao hàng")
+elif status =='delivered':
+    print("đã giao hàng")
+elif status ==' canceled':
+    print("đơn hàng đã huỷ")
