@@ -12,3 +12,12 @@ print(list(z))
 z_saved=list(zip([1,2],[3,4]))
 print(list(z_saved))
 print(list(z_saved))
+#7/07/2026
+data=['b','c','f']
+print("Max:" ,max(data))
+z=zip([2,4],[6,9])
+print(list(z))
+print(list(z))
+z_saved=list(zip([2,4],[6,9]))
+print(list(z_saved))
+print(list(z_saved))

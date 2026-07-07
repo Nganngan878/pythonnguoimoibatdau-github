@@ -10,3 +10,10 @@ matrix=[[1,2,3],[4,5,6],[7,8,9]]
 flat=[num for now in matrix for num in now]
 print(f"So dương :{positives}")
 print(f"Ma trận phẳng:{flat}")
+#7/7/2026
+data=[2,3,4,5,-1,-2,-4]
+positives=[x for x in data if x>2]
+matrix =[[5,6,7],[2,4,8],[1,2,3]]
+flat=[num for now in matrix for num in now]
+print(f"So duong :{positives}")
+print(f"ma trận phẳng:{flat}")

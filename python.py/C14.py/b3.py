@@ -9,3 +9,9 @@ square=[x**2 for x in numbers]
 print(f"Binh phuong:{square}")
 labels=[f"Number:{x}" for x in numbers]
 print(f"labels:{labels}")
+#7/7/2026
+numbers=[2,4,6,8,10]
+square=[x**2 for x in numbers]
+print(f"Binh phuong :{square}")
+labels=[f"Numbers:{x}" for x in numbers]
+print(f"labels:{labels}")

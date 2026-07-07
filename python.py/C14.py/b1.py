@@ -13,5 +13,13 @@ while True:
         print(f"Item:{item}")
     except StopIteration:
         print("đã duyệt xong")
-
+#7/07/2026 làm lại cho hiểu bản chất
+trai_cay=['xoài','mít','mận']
+iterator=iter(trai_cay)
+while True:
+    try:
+        item=next(iterator)
+        print(f"Item:{item}")
+    except StopIteratiom:
+        print("duyệt")
 

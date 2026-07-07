@@ -11,4 +11,12 @@ for i,val in enumerate(range(5)):
 student={'name':'Ngân' ,'age':19,'major':'IT'}
 for key in student:
     print(f"Key:{key}")
-          
+#7/7/2026 làm lại cho hiểu bản chất
+#iterable: Đối tượng cần duyệt qua (List, String, Dictionary, v.v.).
+#start (Tùy chọn): Số bắt đầu đếm. Mặc định là 0
+gen=enumerate(range(1,100000))
+for i,val in enumerate(range(6)):
+    print(f"số thứ{i+2}:val")
+student={'lop':'25IT2' ,'age':19,'hobby':'English and oop'}
+for key in student:
+    print(f"key:{key}")
