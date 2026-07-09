@@ -28,6 +28,19 @@ useful_methods_class_name=[a for a in dir(dict) if not a.startswith('__')]
 print("các phương thức của dict")
 print(useful_methods_class_name)
 print(dir(useful_methods_class_name))
-
+#thực hành để nhớ và hiểu bản chất 
+#9/07/2026
+my_list_name=[2,4,5]
+named_attributes_list=[a for a in dir(my_list_name) if not a.startswith('__')]
+print("Các phương thức thuộc tính:")
+print(named_attributes_list)
+tong_so_name=len(dir(my_list_name))
+print(tong_so_name)
+named_attributes_list_ngan=[a for a in dir(list) if not a.startswith('__')]
+print("các phương thức list 1 là:")
+print(named_attributes_list_ngan)
+named_attributes_list_ngan_ngan=[ a for a in dir(dict) if not a.startswith('__')]
+print("các phương thức của dict 1 là:")
+print(named_attributes_list_ngan_ngan)
 
 

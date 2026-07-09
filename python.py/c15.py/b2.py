@@ -22,7 +22,7 @@ Tính bình phương
 """
 edition=4
 def square(x):
-    return x **m2
+    return x **2
 class PartVI:
     """class dodumnetation for"""
     pass
@@ -34,5 +34,26 @@ print(square.__doc__)
 #3 truy cập docstring của class thông qua__doc__
 print("\n--Nội dung docsstring của class PartIV---")
 print(PartVI.__doc__)
+#thực hành cho nhớ 
+#9/07/2026
+"""
+tính diện tích hình tròn
+"""
+PI=3.14
+edition=2
+def dien_tich_hinh_tron(x):
+    return PI*x*x
+class PartVII:
+    """class dodumnetation for"""
+    pass
+print(f"Dien tinh hình tròn:{dien_tich_hinh_tron(2)}")
+#b2 truy cập
+print("\n ---Nội dung docstring của hàm dien tich hinh tron---")
+print(dien_tich_hinh_tron.__doc__)
+#b3 truy cập docstring của class thong qua _doc_
+print("\n--Nội dung docstring của class--")
+print(PartVII.__doc__)
+print("\n--- Sử dụng help() ---")
+help(dien_tich_hinh_tron)
 
 

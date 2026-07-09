@@ -17,3 +17,16 @@ print(f"\n--B2:Kết quả sau khi dùng lệnh:{ket_qua}--")
 #3 kiểm chúng 
 print("\n--- Bước 3: Hãy truy cập https://docs.python.org/3/library/stdtypes.html#str.split")
 print("Đọc phần giải thích về split để hiểu tại sao nó hoạt động!")
+#9/07/2026 
+#thực hành cho nhớ
+clas="ngan,xinh đẹp,thích học tiếng anh,thích chơi đàn guitar"
+so_thich_cua_ngan=[a for a in dir(clas) if not a.startswith('__')]
+print("--b1 :tìm tên sở thích của ngân ngân trong danh sách--")
+print(so_thich_cua_ngan)
+#2 áp dụng lệnh vưa tìm được
+# thử dùng split
+ket_qua_cua_ngan=clas.split(',')
+print(f"\n--b2:kết quả sau khi dùng lệnh:{ket_qua_cua_ngan}--")
+#3 kiểm tra
+print("\n--- Bước 3: Hãy truy cập https://docs.python.org/3/library/stdtypes.html#str.split")
+print("Đọc phần giải thích về split để hiểu tại sao nó hoạt động!")
