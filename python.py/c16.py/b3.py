@@ -11,3 +11,10 @@ def tang_gia_tri(x):
     return x+y
 ket_qua=tang_gia_tri(5)
 print(f"\nket quả: {ket_qua}")
+#16/07/2026
+#Thực hành lại
+def tang_gia_tri_1(a):
+    b=5
+    return a+b
+ket_qua_2=tang_gia_tri_1(4)
+print(f"\n ket qua:{ket_qua_2}")

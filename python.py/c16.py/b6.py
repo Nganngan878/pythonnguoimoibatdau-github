@@ -8,3 +8,12 @@ def cong(a,b):return a+b
 def tru(a,b):return a-b
 danh_sachham=[cong,tru]
 print(f"list:{danh_sachham[0](10,5)}")
+#16/07/2026
+#thực hành lại
+def nhan(a,b):return a*b
+def chia(a,b):return a/b
+list_ham=[nhan,chia]
+print(f"list:{list_ham[0](12,6)}")
+for ham in list_ham:
+    ket_qua=ham(12,6)
+    print(f"kết quả của hàm {ham.__name__} là:{ket_qua}")

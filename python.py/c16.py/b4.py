@@ -10,3 +10,9 @@ def nhan_doi(vat):
     return vat*2
 print(f"Đa hình số :{nhan_doi(5)}")
 print(f"da hinh chuỗi:{nhan_doi('Python')}")
+#16/07/2026
+#thực hành
+def nhan_doi_1(son):
+    return son*2
+print(f"Đa hình số:{nhan_doi_1(4)}")
+print(f"da hinh chuỗi :{nhan_doi_1('ngan')}")

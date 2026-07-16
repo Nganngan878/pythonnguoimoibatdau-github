@@ -17,3 +17,16 @@ print(f" kết quả(sai):{binh_phuong('Python')}")
 print(f"dùng lambda:{binh_phuong_lambda(6)}")
 ket_qua=(lambda x:x*x)(10)
 print(f"dùng lamda ngay lap tức:{ket_qua}")
+#16/07/2026
+#Thực hành lại
+def binh_phương_2(x):
+    if isinstance(x,(int,float)):
+        return x**2
+    else:
+        return "Lỗi"
+binh_phương_2_lambda=lambda n:n**2
+print(f"kết quả:{binh_phương_2(6)}")
+print(f"kết quả(sai):{binh_phương_2('Python')}")
+print(f"dung lambda:{binh_phương_2_lambda(7)}")
+ket_qua_2=(lambda x:x*x)(10)
+print(f"dùng lambda ngay lap tuc:{ket_qua_2}")

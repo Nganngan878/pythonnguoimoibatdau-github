@@ -14,4 +14,14 @@ def printer(messsage):
     print('Hello',messsage)
 def adder(a,b=1,*c):
     return a+b+c[0]
+#16/07/2026
+#làm lại bài cũ 
+def hello(name):
+    return f"hello,{name}"
+names=['ngan','hùng']
+for name in names:
+    print(hello(name))
+def printer(message):
+    print('hi',message)
+
 
