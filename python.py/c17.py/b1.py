@@ -12,3 +12,11 @@ def pham_vi():
     print(f"trong ham:{x})")
 pham_vi()
 print(f"Ngoài hàm :{x})")
+#17/07/2026
+#thực hành lại 1 lần nữa để nhớ và hiểu hơn
+a=200
+def pham_vi_1():
+    a=20
+    print(f"trong ham:{a}")
+pham_vi_1()
+print(f"ngoài ham:{a}")

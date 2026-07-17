@@ -13,3 +13,14 @@ def ham_ngoai():
     ham_trong()
     print(f"x sau khi nonlocal:{x}")
 ham_ngoai()
+#17/07/2026
+#thực hành lại
+a=6
+def ham_ngoai():
+    a=8
+    def ham_trong():
+        nonlocal a
+        x=20
+    ham_trong()
+    print(f" a sau khi nonlocal:{a}")
+ham_ngoai()

@@ -11,3 +11,13 @@ def ham_cha():
         print(f"Độ dài list: {len([1, 2, 3,4])}")
     ham_con()
 ham_cha()
+#17/07/2026
+#Thực hành lại
+b=4
+def ham_cha():
+    b=1 
+    def ham_con():
+        print(f"Giá trị :{b}")
+        print(f"Độ dài list:{len([2,3,4,5,6,7])}")
+    ham_con()
+ham_cha()
