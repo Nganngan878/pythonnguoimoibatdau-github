@@ -14,3 +14,14 @@ def log_goi_ham(func):
 def cong(a:int ,b:int)-> int:
     return a+b
 print(cong(10,20))
+#THỰC HÀNH LẠI
+#20/07/2026
+def log_goi_ham(func):
+    def wrapper(*args,**kwargs):
+        print(f" đang gọi hàm :{func.__name__}")
+        return func(*args,**kwargs)
+    return wrapper
+@log_goi_ham
+def cong(a:int ,b:int)->int:
+    return a+b
+print(cong(30,40))

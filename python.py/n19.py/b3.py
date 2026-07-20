@@ -10,3 +10,10 @@ def cong(a,b):
 cong.mo_ta="Hàm cộng hai số "
 print(f"ten:{cong.__name__}")
 print(f"Mô tả :{cong.mo_ta}")
+#THỰC HÀNH LẠI 
+#20/07/2026
+def tru(a,b):
+    return a-b
+tru.mo_ta_1="hàm trừ hai số"
+print(f"ten:{tru.__name__}")
+print(f"Mô tả :{tru.mo_ta_1}")

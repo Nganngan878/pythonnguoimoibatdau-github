@@ -12,3 +12,10 @@ L=[1,2,3,4]
 print(list(map(lambda x: x *2,L)))
 print(list(filter(lambda x:x>2,L)))
 print(reduce(lambda x,y:x+y,L))
+#THỰC HÀNH LẠI
+#20/07/2026
+from functools import reduce
+L=[1,2,3,4,5]
+print(list(map(lambda a:a*2,L)))
+print(list(filter(lambda a:a>2,L)))
+print(reduce(lambda x,y:x+y,L))
