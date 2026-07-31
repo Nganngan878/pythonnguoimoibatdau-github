@@ -1,0 +1,38 @@
+#31/07/2026
+"""
+hàm super()
+"""
+class Person():
+    def __init__(self,nameA,genderA,ageA,classA):
+        self.n=nameA
+        self.g=genderA
+        self.a=ageA
+        self.c=classA
+    def nhapnganhhoc(self):
+        self.n = input("Vui lòng bạn nhập tên ngành học: ")
+class Student(Person):
+    def __init__(self,nameA,genderA,ageA,classA,daybirthA):
+        super().__init__( nameA,genderA,ageA,classA )
+        self.d=daybirthA
+        print("Tạo Student:", self.n, self.g, self.a, self.c, self.d)
+    def show(self):
+       print(self.n, self.g, self.a, self.c, self.d)
+    def welcome(self):
+        print("Chào mừng", self.n)
+   
+st=Student("ngân","nữ","19","25It2","13/05/2007")
+st.nhapnganhhoc()
+st.show()
+st.welcome()
+
+class Class(Person):
+    def __init__(self,nameA,genderA,ageA,classA,daybirthA,yearA):
+        super().__init__(nameA,genderA,ageA,classA)
+        self.d=daybirthA
+        self.y=yearA
+    def welcome(self):
+        print("welcome",self.n, self.g, self.a, self.c,self.y)
+
+cl=Class("ngân","nữ","19","25It2","13/05/2007","2029")
+cl.welcome()
+
