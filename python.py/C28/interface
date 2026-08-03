@@ -1,0 +1,14 @@
+#3/08/2026
+"""
+interface
+"""
+from abc import abstractmethod
+from importlib import abc
+
+class InformalParserInterface:
+    @abstractmethod
+    def load_data_source(self):
+        pass
+
+    def extract_text(self):
+        pass
