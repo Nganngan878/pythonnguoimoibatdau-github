@@ -48,3 +48,13 @@ class E(C,D):
 b1=E()
 b1.e=80
 print(b1.e)
+#Không cho phép thêm thuộc tính ngoài __slots__
+class H:
+    __slots__=['name','age']
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+p=H("John",30)
+print(p.name)
+print(p.age)
+
